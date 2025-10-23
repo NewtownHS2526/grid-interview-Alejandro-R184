@@ -1,4 +1,49 @@
 .container {
     display: grid;
     /* style the columns and rows here */
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(4 100px);
+    gap:10px;
+    grid-template-areas:
+    "a b c d";
+  }
+
+  .a{
+    text-align: center;
+grid-area: "a";
+background-color:lightblue;
+padding:15vh;
+border-width:1vh;
+border-color:grey;
+border-style:solid;
+  }
+
+  .b{
+    text-align: center;
+  grid-area: "b";
+  padding:15vh;
+  background-color:palegreen;
+  border-width:1vh;
+  border-color:grey;
+  border-style:solid;
+  }
+
+  .c{
+    text-align: center;
+grid-area: "c";
+padding:15vh;
+background-color:peru;
+border-width:1vh;
+border-color:grey;
+border-style:solid;
+  }
+
+  .d{
+    text-align: center;
+grid-area: "d";
+padding:15vh;
+background-color:palevioletred;
+border-width:1vh;
+border-color:grey;
+border-style:solid;
   }

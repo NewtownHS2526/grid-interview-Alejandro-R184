@@ -1,5 +1,125 @@
 .months-container {
+    display:grid;
+    grid-template-columns:repeat(4 1fr) ;
+    grid-template-rows:repeat(3 200px) ;
+    grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "i j k l";
+}
+.a{
+background-color: rgb(157, 184, 235);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"a";
+text-align:center;
+}
+.b{
+background-color: lightgreen;
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"b";
+text-align:center;
+}
+.c{
+background-color: palegoldenrod;
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"c";
+text-align:center;
+}
+.d{
+background-color: lightsalmon;
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"d";
+text-align:center;
+}
+.e{
+background-color: rgb(206, 131, 156);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"e";
+text-align:center;
+}
+.f{
+background-color:rgb(235, 148, 148);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"f";
+text-align:center;
+}
+.g{
+background-color: rgb(157, 184, 235);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"g";
+text-align:center;
+}
+.h{
+background-color: lightsalmon;
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"h";
+text-align:center;
+}
+.i{
+background-color: palegoldenrod;
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"i";
+text-align:center;
+}
+.j{
+background-color: rgb(206, 131, 156);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"j";
+text-align:center;
+}
+.k{
+background-color: rgb(157, 184, 235);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"k";
+text-align:center;
+}
+.l{
+background-color:rgb(235, 148, 148);
+padding:20px;
+border-width:1px;
+border-color:grey;
+border-style:solid;
+grid-area:"l";
+text-align:center;
 }
 
+
+
 .days-container {
+    display:grid;
+    grid-template-columns:repeat(5 1fr);
+    grid-template-rows:repeat(5 200px);
 }
