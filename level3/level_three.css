@@ -1,10 +1,153 @@
 .container {
+display: grid;
+grid-template-columns:repeat(7 1fr);
+grid-template-rows:repeat(6 100px);
+grid-template-areas:
+"grid-item-1 grid-item-2 grid-item-3"
+"grid-item-4 grid-item-5 grid-item-6 grid-item-7" 
+"grid-item-8 grid-item-9 grid-item-10 grid-item-18 grid-item-11 grid-item-12 grid-item-13"
+"grid-item-14 grid-item-15 grid-item-16 grid-item-17 grid-item-19";
+gap: 10px;
 }
-
-#grid-item-1 {
+.day-title{
+grid-row:1/6;
 }
+.day-title{
+padding-top:5px;
+background-color: palevioletred;
+flex-grow:10px;
+}
+.no-school{
+    background-color:whitesmoke;
+}
+.school{
+    background-color: palegoldenrod;
+}
+.weekend{
+    background-color: darkolivegreen;
+}
+.event{
+    background-color: brown;
+}
+.half-day{
+    background-color: orangered;
+}
+.winter-break{
+    background-color: cornflowerblue;
+}
+cursorplaceholder
+#grid-item-1{
+grid-area:grid-item-1;
+padding:60px;
+  
+}
+cursorplaceholder
+#grid-item-2{
+grid-area:grid-item-2;
+padding:60px;
+  
+}
+cursorplaceholder
+#grid-item-3{
+grid-area:grid-item-3;
+padding:60px;
 
-#grid-item-2 {
+}
+cursorplaceholder
+#grid-item-4{
+grid-area:grid-item-4;
+padding:60px;
+    
+}
+cursorplaceholder
+#grid-item-5{
+grid-area:grid-item-5;
+padding:60px;
+    
+}
+cursorplaceholder
+#grid-item-6{
+grid-area:grid-item-6;
+padding:60px;
+    
+}
+cursorplaceholder
+#grid-item-7{
+grid-area:grid-item-7;
+padding:60px;
+    
+}
+cursorplaceholder
+#grid-item-8{
+grid-area:grid-item-8;
+padding:60px;
+    
+}
+cursorplaceholder
+#grid-item-9{
+grid-area:grid-item-9;
+padding:60px;
+    
+}
+cursorplaceholder
+#grid-item-10{
+grid-area:grid-item-10
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-11{
+grid-area:grid-item-11
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-12{
+grid-area:grid-item-12
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-13{
+grid-area:grid-item-13
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-14{
+grid-area:grid-item-14
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-15{
+grid-area:grid-item-15
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-16{
+grid-area:grid-item-16
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-17{
+grid-area:grid-item-17
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-18{
+grid-area:grid-item-18
+padding:260x;;
+    
+}
+cursorplaceholder
+#grid-item-19{
+grid-area:grid-item-19
+padding:260x;;
+    
 }
 
 /* Add more grid-items as needed */
